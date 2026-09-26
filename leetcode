@@ -9,3 +9,9 @@ class Solution(object):
 class Solution(object):
     def reverseString(self, s):
         s.reverse()
+
+#ispalindrome
+class Solution(object):
+    def isPalindrome(self, x):
+        s=str(x)
+        return s == s[::-1]
